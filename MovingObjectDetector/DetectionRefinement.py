@@ -57,7 +57,8 @@ class DetectionRefinement:
 
         if ("classification" in self.attack) and not (self.refinementID is None):
         ##  pass # to call mcdc
-            res, X[self.refinementID] = mcdc(X[self.refinementID], self.model_binary, self.aveImg_binary,  mcdc_cond_ratio=0.99)
+            res, testSuite = mcdc(X[self.refinementID], self.model_binary, self.aveImg_binary,  mcdc_cond_ratio=0.99, num = 10)
+            X[self.refinementID] = testSuite[1]
             self.refinementID = None
         ##  X[self.refinementID]=new_x
         ##  print ('res is ', res)
