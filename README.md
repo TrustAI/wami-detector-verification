@@ -30,16 +30,16 @@ with a few optional paramters:
         [--ROI_window n] with default "1000"
         [--num_of_template n] with default "3"
 
--------------
+----
 
 ## Publication
 
-###@inproceedings{szmsh2020,
-###  AUTHOR    = { Sun, Youcheng and Zhou, Yifan and Maskell, Simon and Sharps, James and Huang, Xiaowei },               
-###  TITLE     = { Reliability Validation of Deep Learning Enabled Vehicle Tracking },  
-###  BOOKTITLE = { ICRA 2020 },  
-###  YEAR      = { 2020 }  
-###}
+>>@inproceedings{szmsh2020,
+>>>  AUTHOR    = { Sun, Youcheng and Zhou, Yifan and Maskell, Simon and Sharps, James and Huang, Xiaowei },               
+>>>  TITLE     = { Reliability Validation of Deep Learning Enabled Vehicle Tracking },  
+>>>  BOOKTITLE = { ICRA 2020 },  
+>>>  YEAR      = { 2020 }  
+>>>}
 
 
 
