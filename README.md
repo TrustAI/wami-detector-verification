@@ -35,14 +35,23 @@ with a few optional paramters:
 ## Publication
 
 @inproceedings{szmsh2020,
+
   AUTHOR    = { Sun, Youcheng
+  
                 and Zhou, Yifan
+                
                 and Maskell, Simon
+                
                 and Sharps, James
+                
                 and Huang, Xiaowei },
+                
   TITLE     = { Reliability Validation of Deep Learning Enabled Vehicle Tracking },
+  
   BOOKTITLE = { ICRA 2020 },
+  
   YEAR      = { 2020 }
+  
 }
 
 
